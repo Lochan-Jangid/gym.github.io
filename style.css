@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --clr:#2d2a2a;
+}
+.navbar{
+    width: 100%;
+    background: url(./images/counter-bg.jpg) center;
+    background-size: 100%;
+    height: 80px;
+    display: flex;
+}
+.navbar .logo{
+font-size: 3em;
+margin: 10px;
+text-decoration: none;
+color: #fff;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bold;
+}
+ul{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    margin: 10px;
+}
+ul li{
+    margin: 10px;
+}
+ul li a{
+    color: rgb(114, 112, 112);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li a:hover{
+    color: #fff;
+}
+.home{
+    display: flex;
+    background: url(./images/home-bg.jpg);
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home .txt{
+    margin: 30px;
+}
+.home .txt h1{
+    font-size: 3em;
+    color: rgba(238, 238, 238, 0.502);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+.home p{
+    font-size: 1em;
+    width: 400px;
+    font-family: cursive;
+    color: rgba(255, 255, 255, 0.187);
+}
+.home button{
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.4em;
+    cursor: pointer;
+    color: var(--clr);
+    background: transparent;
+    font-weight: bold;
+    border: 0;
+    border-bottom: 2px solid var(--clr);
+    transition: 0.5s;
+}
+.home button:hover{
+    background: var(--clr);
+    color: #fff;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0.4em 0.4em 1em rgba(0, 0, 0, 0.415)
+}
+.home img{
+   width: 500px;
+}
+
+.about{
+    display: flex;
+    background: url(./images/footer-bg.jpg) no-repeat;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+}
+.about .txt{
+    margin: 30px;
+}
+.about .txt h1{
+    font-size: 3em;
+    color: rgba(238, 238, 238, 0.502);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.about p{
+    width: 400px;
+    font-size: 1em;
+    font-family: cursive;
+    color: rgba(255, 255, 255, 0.187);
+}
+.about button{
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.4em;
+    cursor: pointer;
+    color: var(--clr);
+    background: transparent;
+    font-weight: bold;
+    border: 0;
+    border-bottom: 2px solid var(--clr);
+    transition: 0.5s;
+}
+.about button:hover{
+    background: var(--clr);
+    color: #fff;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0.4em 0.4em 1em rgba(0, 0, 0, 0.415)
+}
+.about img{
+   width: 500px;
+}
+.searvices{
+    background: url(./images/counter-bg.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.searvices  .card{
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    width: 350px;
+    margin: 10px;
+}
+.searvices .card img{
+    width: 300px;
+    transition: 0.5s;
+}
+.searvices .card img:hover{
+    transform: scale(1.1);
+}
+
+.searvices .card h1{
+    width: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: var(--clr);
+}
+.searvices .card p{
+    width: 300px;
+}
+.searvices .card button{
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.4em;
+    cursor: pointer;
+    color: var(--clr);
+    background: transparent;
+    font-weight: bold;
+    border: 0;
+    border-bottom: 2px solid var(--clr);
+    transition: 0.5s;
+}
+.searvices .card button:hover{
+    background: var(--clr);
+    color: #fff;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0.4em 0.4em 1em rgba(0, 0, 0, 0.415)
+}
+header{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    margin: -40px;
+    font-weight: bold;
+    color: rgb(151, 151, 151);
+}
+.trainer{
+display: flex;
+flex-wrap: wrap;
+}
+.trainer .img{
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    width: 350px;
+    margin: 10px;
+    box-shadow: 0.4em 0.4em 1em #eee;
+}
+.trainer .img img{
+    width: 300px;
+    transition: 0.5s;
+}
+.trainer .img img:hover{
+    transform: scale(1.1);
+}
+.trainer .img h1{
+    width: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: var(--clr);
+}
+.footer{
+    background: url(./images/counter-bg.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+.footer h1{
+font-size: 3em;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: lighter;
+color: #fff;
+}
+.footer h1 span{
+    font-weight: bold;
+    color: skyblue;
+}
